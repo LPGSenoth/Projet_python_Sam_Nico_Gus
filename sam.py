@@ -15,3 +15,6 @@ class personne:
     def set(self,name,age):
         self.name = name
         self.age = age
+
+print("jet taime vraiment")
+
