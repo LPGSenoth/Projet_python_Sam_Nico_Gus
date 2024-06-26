@@ -16,5 +16,5 @@ class personne:
         self.name = name
         self.age = age
 
-print("jet taime vraiment")
-
+class Sportif:
+    def __init__(self):
