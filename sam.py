@@ -15,3 +15,6 @@ class personne:
     def set(self,name,age):
         self.name = name
         self.age = age
+
+class Sportif:
+    def __init__(self):
