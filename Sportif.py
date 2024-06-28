@@ -10,5 +10,5 @@ class Sportif(Personne):
         return self.sport
 
     def affiche(self):
-        print(f"le nom du sportif ou sportive est {self.name}")
+        print(f"Nom: {self.name}, Sport: {self.sport}")
 
