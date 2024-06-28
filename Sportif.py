@@ -1,8 +1,8 @@
-import Personne
+from  Personne import Personne
 
 
 class Sportif(Personne):
-    def __init__(self,nom,age,sport):
+    def __init__(self,nom,sport,age=None):
         Personne.__init__(self,nom,age)
         self.sport = sport
 
@@ -10,6 +10,5 @@ class Sportif(Personne):
         return self.sport
 
     def affiche(self):
-        print(f"le nom du sportif ou sportive est {self.nom}")
+        return f"le nom du sportif ou sportive est {self.nom}"
 
-    
