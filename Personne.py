@@ -1,7 +1,5 @@
-print("jet taime vraiment c est pas une blague ")
-
 class personne:
-    def __init__(self,name,age):
+    def __init__(self,name,age = 0):
         self.name = name
         self.age = age
 
@@ -16,5 +14,6 @@ class personne:
         self.name = name
         self.age = age
 
-class Sportif:
-    def __init__(self):
+
+
+
